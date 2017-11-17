@@ -1,6 +1,8 @@
 #### js-playground
 
-experimental javascript creations
+experimental javascript creations:
+
+ * [sun animation](https://mac-s-g.github.io/js-playground/sun-animation/)
 
 
 #### run the dev server
