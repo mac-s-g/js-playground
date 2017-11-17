@@ -1,10 +1,11 @@
 #### js-playground
 
-experimental creations
+experimental javascript creations
 
-*note: `sudo` may be required for docker interaction based on your installation config.*
 
 #### run the dev server
+
+*note: `sudo` may be required for docker interaction based on your installation config.*
 
 To run the website in a local environment:
 
