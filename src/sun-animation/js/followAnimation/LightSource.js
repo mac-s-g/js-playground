@@ -54,13 +54,27 @@ class AnimatedSquare extends Component {
         y: 0
       }}
       style={{
-        x: spring(x),
-        y: spring(y)
+        x: spring(
+          x,
+          {
+            stiffness: 100,
+            damping: 60
+          }
+        ),
+        y: spring(
+          y,
+          {
+            stiffness: 100,
+            damping: 60
+          }
+        )
       }}>
         {styleProps => (
           <Container
             style={{
-              backgroundColor: 'hsla(240,50%,' + 100*((700-styleProps.y)/1000) + '%, 0.7)'
+              backgroundColor: 'hsla(240,50%,'
+                + 100*((800-styleProps.y)/1000)
+                + '%, 0.7)'
             }} >
               <Square
                 style={{
