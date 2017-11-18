@@ -1,4 +1,3 @@
-module.exports = [
-  'index',
-  'sun-animation'
-]
+const fs = require('fs');
+
+module.exports = fs.readdirSync('src');

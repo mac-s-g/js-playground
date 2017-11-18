@@ -13,7 +13,15 @@ const Container = Styled.div`
 
 const Main = () => (
   <Container>
-    Playground Index
+    <h3>Javascript Playground</h3>
+    <a href="https://github.com/mac-s-g/js-playground" target="_blank">
+      Source Code
+    </a>
+    <h4>Demos:</h4>
+    <ul>
+      <li><a href="./sun-animation/">Sun Animation</a></li>
+      <li><a href="./orbit/">Earth Orbit</a></li>
+    </ul>
   </Container>
 )
 
