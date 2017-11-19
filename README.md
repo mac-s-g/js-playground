@@ -3,7 +3,7 @@
 experimental javascript creations:
 
  * [sun animation](https://mac-s-g.github.io/js-playground/sun-animation/)
- * [earth orbit](https://mac-s-g.github.io/js-playground/orbit/)
+ * [solar system](https://mac-s-g.github.io/js-playground/orbit/)
 
 
 #### run the dev server

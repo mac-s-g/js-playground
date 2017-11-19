@@ -20,7 +20,7 @@ const Main = () => (
     <h4>Demos:</h4>
     <ul>
       <li><a href="./sun-animation/">Sun Animation</a></li>
-      <li><a href="./orbit/">Earth Orbit</a></li>
+      <li><a href="./orbit/">Solar System</a></li>
     </ul>
   </Container>
 )
