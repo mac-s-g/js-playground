@@ -74,8 +74,8 @@ export default class Planet extends Component {
 
           if (i == 0) {
             return {
-              x: spring(x, {...springPreset, precision: 0.5}),
-              y: spring(y, {...springPreset, precision: 0.5}),
+              x: spring(x, {...springPreset, precision: 1}),
+              y: spring(y, {...springPreset, precision: 1}),
             }
           } else {
             return {
@@ -88,8 +88,8 @@ export default class Planet extends Component {
           {interpolating =>
             <div>
             {interpolating.map((styleProps, i) => {
-              if (i == (this.staggerOffset - 1))  {
-                const direction = styleProps.x > interpolating[this.staggerOffset - 3].x
+              if (i === (this.staggerOffset - 1))  {
+                const direction = styleProps.x > interpolating[i - 3].x
                   ? -1 : 1
                 const scale = this.getScale(
                   styleProps.x - x, direction

@@ -8,6 +8,7 @@ import Venus from './Venus'
 import Earth from './Earth'
 import Mars from './Mars'
 
+
 const Sun = Styled.div`
   position: absolute;
   background-color: #bbbb00;
