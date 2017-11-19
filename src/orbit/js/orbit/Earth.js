@@ -16,9 +16,10 @@ export default (props) => (
     }} >
     <Planet
     name="moon"
+    type="ring"
     orbitRadiusX={20}
     orbitRadiusY={2}
-    size={5}
+    size={4}
     color='#aaaaaa'
     springPreset={{
       stiffness: 30,

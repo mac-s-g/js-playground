@@ -12,7 +12,7 @@ const Sun = Styled.div`
   position: absolute;
   background-color: #bbbb00;
   opacity: 1;
-  box-shadow: 0px 0px 10px #ffff00;
+  box-shadow: 0px 0px 30px #ffff00;
   width: ${props => props.size}px;
   height: ${props => props.size}px;
   border-radius: ${props => round(props.size / 2)}px;px;

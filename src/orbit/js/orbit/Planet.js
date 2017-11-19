@@ -106,7 +106,7 @@ export default class Planet extends Component {
                       transform: 'scale(' + scale + ')',
                       height: size + 'px',
                       width: size + 'px',
-                      borderRadius: (size / 2) + 'px'
+                      borderRadius: (size) + 'px'
                     }}
                     size={size}
                     color={color} />
