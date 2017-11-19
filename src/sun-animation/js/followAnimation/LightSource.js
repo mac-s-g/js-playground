@@ -62,7 +62,7 @@ class AnimatedSquare extends Component {
           }
         ),
         y: spring(
-          y,
+          y + 30,
           {
             stiffness: 100,
             damping: 60

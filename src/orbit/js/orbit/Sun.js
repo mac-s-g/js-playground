@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
 import Styled from 'styled-components'
 
-import Planet from './Planet'
 import { round } from './../helpers'
+
+import Mercury from './Mercury'
+import Venus from './Venus'
+import Earth from './Earth'
+import Mars from './Mars'
 
 const Sun = Styled.div`
   position: absolute;
@@ -17,17 +21,19 @@ const Sun = Styled.div`
 `
 
 const sun_size = 100
+const sun_center_gravity = {
+  x: (sun_size / 2),
+  y: (sun_size / 2)
+}
 
 export default (props) => (
   <Sun
     left={props.x}
     top={props.y}
     size={sun_size} >
-      <Planet
-        x={round(sun_size / 2)}
-        y={round(sun_size / 2)}
-        orbitRadiusX={200}
-        orbitRadiusY={30}
-        size={20} />
+      <Mercury centerOfGravity={sun_center_gravity} />
+      <Venus centerOfGravity={sun_center_gravity} />
+      <Earth centerOfGravity={sun_center_gravity} />
+      <Mars centerOfGravity={sun_center_gravity} />
   </Sun>
 )
