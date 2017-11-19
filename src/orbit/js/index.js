@@ -1,7 +1,6 @@
 import React from 'react'
 import Styled from 'styled-components'
 
-import GithubLogo from './../images/github-octicon.png'
 import Orbit from './orbit/index'
 
 
@@ -25,7 +24,7 @@ const Main = () => (
     <Orbit />
     <LinkContainer>
       <a id="github-link" target="_blank"
-      href="https://github.com/mac-s-g/js-playground/">
+      href="https://github.com/mac-s-g/js-playground/tree/master/src/orbit">
         <svg
           height="44"
           width="44"
