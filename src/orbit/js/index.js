@@ -17,6 +17,13 @@ const LinkContainer = Styled.div`
   width: 45px;
   height: 45px;
   cursor: pointer;
+  opacity: 0.3;
+  transition: all 0.2s ease;
+  transform: scale(0.9);
+  &:hover {
+    opacity: 0.7;
+    transform: scale(1);
+  }
 `
 
 const Main = () => (
